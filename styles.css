@@ -1,10 +1,11 @@
 body {
   margin: 0;
+  background-color: bisque;
 }
 header {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color: rgb(40, 40, 161);
   border-bottom: solid black 3px;
 }
 main {
@@ -16,10 +17,14 @@ article {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  background-color: bisque;
-  padding: 50px;
+  background-color: rgb(230, 172, 100);
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
   flex-direction: column;
   border: solid black 3px;
+  border-radius: 10px;
   margin-left: 50px;
   margin-right: 50px;
   position: relative;
@@ -50,8 +55,9 @@ footer {
   display: flex;
   box-sizing: content-box;
   width: min-content;
-  margin-bottom: 10px;
   font-family: "Dosis", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .topiclist {
   list-style: none;
@@ -62,11 +68,12 @@ footer {
 }
 h1 {
   font-family: "Pacifico", cursive;
+  color: white;
 }
 p {
   font-family: "Dosis", sans-serif;
 }
-h3 {
+h2 {
   display: flex;
   justify-content: center;
   font-family: "Dosis", sans-serif;
@@ -78,7 +85,7 @@ h3 {
   margin-left: 30%;
   margin-right: 30%;
   padding: 30px;
-  background-color: blueviolet;
+  background-color: rgb(86, 86, 167);
 }
 
 .pos {
@@ -87,4 +94,14 @@ h3 {
   position: absolute;
   right: 10px;
   top: -15px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerbutton {
+  margin-top: 0;
+  margin-bottom: 0;
 }

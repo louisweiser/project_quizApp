@@ -5,10 +5,12 @@ header {
   display: flex;
   justify-content: center;
   background-color: blue;
+  border-bottom: solid black 3px;
 }
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 article {
   display: flex;
@@ -17,6 +19,10 @@ article {
   background-color: bisque;
   padding: 50px;
   flex-direction: column;
+  border: solid black 3px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
 }
 footer {
   position: fixed;
@@ -34,4 +40,51 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
   /*border: solid black 5px;*/
+}
+
+.topicitem {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  box-sizing: content-box;
+  width: min-content;
+  margin-bottom: 10px;
+  font-family: "Dosis", sans-serif;
+}
+.topiclist {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+}
+p {
+  font-family: "Dosis", sans-serif;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Dosis", sans-serif;
+}
+.answer {
+  display: flex;
+  justify-content: center;
+  border: solid black 3px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 30px;
+  background-color: blueviolet;
+}
+
+.pos {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: -15px;
 }

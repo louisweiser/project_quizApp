@@ -26,4 +26,12 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: brown;
+  border-top: solid black 3px;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*border: solid black 5px;*/
 }

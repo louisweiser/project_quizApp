@@ -1,20 +1,17 @@
 nav {
+  display: flex;
+  justify-content: space-around;
+
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 
-  display: flex;
-  justify-content: space-around;
   background-color: brown;
   border-top: solid black 3px;
 }
-.containerbutton {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
-.buttonfooter {
+.nav--button {
   padding-left: 30px;
   padding-right: 30px;
   background-color: transparent;
@@ -22,7 +19,13 @@ nav {
   transition-duration: 0.4s;
 }
 
-.buttonfooter:hover {
+.nav--button:hover {
   background-color: rgb(136, 34, 34);
-  cursor: pointer;
+}
+
+.nav--button__icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

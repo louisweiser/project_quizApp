@@ -1,9 +1,11 @@
 header {
   display: flex;
   justify-content: center;
-  background-color: rgb(40, 40, 161);
-  border-bottom: solid black 3px;
+
   position: fixed;
   width: 100%;
   z-index: 10;
+
+  background-color: rgb(40, 40, 161);
+  border-bottom: solid black 3px;
 }

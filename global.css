@@ -1,0 +1,58 @@
+@import "/css/button.css";
+
+@import "/css/card.css";
+
+@import "/css/header.css";
+
+@import "/css/navigation.css";
+
+@import "/css/styles.css";
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+p {
+  font-family: "Dosis", sans-serif;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Dosis", sans-serif;
+}
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(230, 172, 100);
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  border: solid black 1px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+}

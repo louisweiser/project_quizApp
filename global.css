@@ -6,8 +6,6 @@
 
 @import "/css/navigation.css";
 
-@import "/css/styles.css";
-
 h1 {
   font-family: "Pacifico", cursive;
   color: white;
@@ -55,4 +53,21 @@ article {
 body {
   margin: 0;
   background-color: bisque;
+}
+
+.bookmark {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  background-image: url(svg/bookmark-outline-full.png);
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  transition-duration: 0.4s;
+}
+.bookmark:hover {
+  background-image: url(svg/bookmark-outline-pin.png);
+  cursor: pointer;
 }

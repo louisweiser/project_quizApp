@@ -1,0 +1,36 @@
+.answer {
+  display: flex;
+  justify-content: center;
+  border: solid black 3px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(86, 86, 167);
+  border-radius: 50px;
+  transition-duration: 0.4s;
+}
+.answer:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.bookmark {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  background-image: url(svg/bookmark-outline-full.png);
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  transition-duration: 0.4s;
+}
+.bookmark:hover {
+  background-image: url(svg/bookmark-outline-pin.png);
+  cursor: pointer;
+}

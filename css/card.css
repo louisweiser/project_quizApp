@@ -1,0 +1,27 @@
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*border: solid black 5px;*/
+}
+
+.topicitem {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  box-sizing: content-box;
+  width: min-content;
+  font-family: "Dosis", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.topiclist {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -6,9 +6,18 @@
 
 @import "/css/button.css";
 
+@import "/assets/font.css";
+
+:root {
+  --header-color: rgb(40, 40, 161);
+  --body-color: bisque;
+  --nav-color: brown;
+  --card-color: rgb(230, 172, 100);
+}
+
 body {
   margin: 0;
-  background-color: bisque;
+  background-color: var(--body-color);
 }
 
 main {

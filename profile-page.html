@@ -9,24 +9,11 @@
     <!-- /META -->
     <!-- LINKS -->
     <link rel="stylesheet" href="global.css" />
+    <script src="./js/index.js" defer></script>
     <!-- /LINKS -->
-    <!-- FONTS GOOGLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
-      rel="stylesheet"
-    />
-    <!-- /FONTS GOOGLE -->
   </head>
 
-  <body>
+  <body data-js="body">
     <!-- HEAD -->
     <header>
       <h1>Quiz App</h1>
@@ -52,7 +39,7 @@
         <h3>Settings</h3>
         <p>Dark Mode</p>
         <label class="switch">
-          <input type="checkbox" />
+          <input type="checkbox" data-js="toggle-button" />
           <span class="slider round"></span>
         </label>
       </section>

@@ -57,3 +57,12 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.dark {
+  background-color: #202124;
+  color: white;
+}
+/*
+#171717 für head
+#303134 für nav
+*/

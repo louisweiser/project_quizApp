@@ -9,7 +9,7 @@ article {
   padding: 30px 50px 20px 50px;
   margin: 20px 50px 10px 50px;
 
-  background-color: rgb(230, 172, 100);
+  background-color: var(--card-color);
   border: solid black 1px;
   border-radius: 10px;
 

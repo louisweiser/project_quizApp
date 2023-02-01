@@ -8,9 +8,15 @@
 
 @import "/assets/font.css";
 
+:root {
+  --header-color: rgb(40, 40, 161);
+  --body-color: bisque;
+  --nav-color: brown;
+}
+
 body {
   margin: 0;
-  background-color: bisque;
+  background-color: --body-color;
 }
 
 main {

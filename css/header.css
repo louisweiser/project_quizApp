@@ -6,6 +6,6 @@ header {
   width: 100%;
   z-index: 10;
 
-  background-color: rgb(40, 40, 161);
+  background-color: --header-color;
   border-bottom: solid black 3px;
 }

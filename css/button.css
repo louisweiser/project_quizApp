@@ -59,6 +59,10 @@ input:checked + .slider:before {
 }
 
 .dark {
-  background-color: black;
+  background-color: #202124;
   color: white;
 }
+/*
+#171717 für head
+#303134 für nav
+*/

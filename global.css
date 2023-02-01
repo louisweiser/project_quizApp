@@ -12,11 +12,12 @@
   --header-color: rgb(40, 40, 161);
   --body-color: bisque;
   --nav-color: brown;
+  --card-color: rgb(230, 172, 100);
 }
 
 body {
   margin: 0;
-  background-color: --body-color;
+  background-color: var(--body-color);
 }
 
 main {

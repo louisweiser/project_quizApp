@@ -6,6 +6,8 @@
 
 @import "/css/button.css";
 
+@import "/assets/font.css";
+
 body {
   margin: 0;
   background-color: bisque;

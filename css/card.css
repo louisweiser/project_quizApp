@@ -1,12 +1,52 @@
-.icons {
-  width: 30px;
-  height: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /*border: solid black 5px;*/
+/* CARD BODY */
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+
+  padding: 30px 50px 20px 50px;
+  margin: 20px 50px 10px 50px;
+
+  background-color: rgb(230, 172, 100);
+  border: solid black 1px;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
+}
+/* /CARD BODY */
+
+.card--topicList {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+  padding-left: 0;
+  gap: 10px;
 }
 
-.topicitem {
+.card--answerButton {
+  display: flex;
+  justify-content: center;
+
+  margin: 10px 20% 10px 20%;
+  padding: 10px 30px 10px 30px;
+
+  background-color: rgb(86, 86, 167);
+  border: solid black 3px;
+  border-radius: 50px;
+
+  transition-duration: 0.4s;
+}
+
+.card--answerButton:hover {
+  background-color: aliceblue;
+}
+
+.card--topicList__item {
   padding: 10px;
   background-color: grey;
   color: white;
@@ -17,11 +57,4 @@
   font-family: "Dosis", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-.topiclist {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
 }

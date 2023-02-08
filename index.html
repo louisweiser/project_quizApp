@@ -23,7 +23,21 @@
     <main>
       <section>
         <article>
-          <button class="card--bookmark"></button>
+          <label class="card--bookmark--checkbox">
+            <input type="checkbox" class="nulll" data-js="cardOne" />
+            <svg class="ionicon" viewBox="0 0 512 512">
+              <path
+                d="M352 48H160a48 48 0 00-48 48v368l144-128 144 128V96a48 48 0 00-48-48z"
+                fill="white"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+                data-js="svg-bookmark"
+              />
+            </svg>
+            <!-- <checkbox class="card--bookmark"></checkbox> -->
+          </label>
           <h2>What property flips the axes in flexbox ?</h2>
           <button class="card--answerButton">Show Answer</button>
           <ul class="card--topicList">
@@ -77,14 +91,16 @@
     <!-- /MAIN -->
     <!-- NAV BAR-->
     <nav>
-      <button class="nav--button">
-        <img
-          class="nav--button__icon"
-          src="svg/chatbubble-outline.svg"
-          alt="message"
-        />
-      </button>
-      <form action="bookmark.html">
+      <form action="message-page.html">
+        <button class="nav--button">
+          <img
+            class="nav--button__icon"
+            src="svg/chatbubble-outline.svg"
+            alt="message"
+          />
+        </button>
+      </form>
+      <form action="bookmark-page.html">
         <button class="nav--button">
           <img
             class="nav--button__icon"

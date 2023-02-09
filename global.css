@@ -11,10 +11,10 @@
 :root {
   --header-color: rgb(40, 40, 161);
   --body-color: bisque;
-  --nav-color: brown;
+  --nav-color: rgb(165, 42, 42);
   --card-color: rgb(230, 172, 100);
 
-  --card__bookmark-color: aliceblue;
+  --card__bookmark-color: brown;
   --card__bookmarkHOVER-color: brown;
 }
 
@@ -29,19 +29,14 @@ main {
   flex-direction: column;
 }
 
-section {
-  margin: 100px auto 80px auto;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-  font-family: "Dosis", sans-serif;
-}
-
 p {
   font-family: "Dosis", sans-serif;
   max-width: 600px;
+  text-align: center;
+  transition-duration: 4s;
+}
+.answer {
+  transition-duration: 4s;
 }
 
 button:hover {

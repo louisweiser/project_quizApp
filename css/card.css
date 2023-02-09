@@ -1,13 +1,21 @@
 /* v v v CARD BODY v v v */
+section {
+  margin: 100px 20px 80px 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 article {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
 
   position: relative;
 
-  padding: 30px 50px 20px 50px;
-  margin: 20px 50px 10px 50px;
+  padding: 30px 20px 20px 20px;
+  margin: 20px 0px 10px 0px;
+  width: 90%;
 
   background-color: var(--card-color);
   border: solid black 1px;
@@ -16,6 +24,15 @@ article {
   -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
 }
+@media (min-width: 910px) {
+  article {
+    width: 800px;
+  }
+}
+.card__question-headline {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
 /* ^ ^ ^ CARD BODY ^ ^ ^ */
 
 /* v v v CARD ANSWER BUTTON v v v */
@@ -23,8 +40,9 @@ article {
   display: flex;
   justify-content: center;
 
-  margin: 10px 20% 10px 20%;
+  margin: 10px auto 10px auto;
   padding: 10px 30px 10px 30px;
+  max-width: 200px;
 
   background-color: rgb(86, 86, 167);
   border: solid black 3px;
@@ -35,12 +53,17 @@ article {
 .card__answer--button:hover {
   background-color: aliceblue;
 }
+.answer {
+  display: flex;
+  justify-content: center;
+}
 /* ^ ^ ^ CARD ANSWER BUTTON ^ ^ ^ */
 
 /* v v v CARD TOPICS LIST v v v */
 .card__topics--list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   list-style: none;
 
@@ -48,7 +71,7 @@ article {
   gap: 10px;
 }
 .card__topics--item {
-  padding: 10px;
+  padding: 5px;
   background-color: grey;
   color: white;
   border-radius: 10px;
@@ -56,8 +79,6 @@ article {
   box-sizing: content-box;
   width: min-content;
   font-family: "Dosis", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 /* ^ ^ ^ CARD TOPICS LIST ^ ^ ^ */
 
@@ -78,7 +99,19 @@ article {
 .card__bookmark--button:hover .card__bookmark--svgPath {
   fill: var(--card__bookmarkHOVER-color);
 }
-.card__bookmark--svgPath {
+.card__bookmark--svgPath-color {
   fill: var(--card__bookmark-color);
 }
 /* ^ ^ ^ CARD BOOKMARK BUTTON ^ ^ ^ */
+
+.card__addcard--container {
+  height: 70px;
+  width: 70px;
+  border: 3px black solid;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 30px;
+}

@@ -1,4 +1,4 @@
-/* CARD BODY */
+/* v v v CARD BODY v v v */
 article {
   display: flex;
   justify-content: center;
@@ -16,19 +16,10 @@ article {
   -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.45);
 }
-/* /CARD BODY */
+/* ^ ^ ^ CARD BODY ^ ^ ^ */
 
-.card--topicList {
-  display: flex;
-  flex-wrap: wrap;
-
-  list-style: none;
-
-  padding-left: 0;
-  gap: 10px;
-}
-
-.card--answerButton {
+/* v v v CARD ANSWER BUTTON v v v */
+.card__answer--button {
   display: flex;
   justify-content: center;
 
@@ -41,12 +32,22 @@ article {
 
   transition-duration: 0.4s;
 }
-
-.card--answerButton:hover {
+.card__answer--button:hover {
   background-color: aliceblue;
 }
+/* ^ ^ ^ CARD ANSWER BUTTON ^ ^ ^ */
 
-.card--topicList__item {
+/* v v v CARD TOPICS LIST v v v */
+.card__topics--list {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+  padding-left: 0;
+  gap: 10px;
+}
+.card__topics--item {
   padding: 10px;
   background-color: grey;
   color: white;
@@ -58,3 +59,26 @@ article {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* ^ ^ ^ CARD TOPICS LIST ^ ^ ^ */
+
+/* v v v CARD BOOKMARK BUTTON v v v */
+.card__bookmark--container {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+}
+.card__bookmark--button {
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  transition-duration: 0.4s;
+}
+.card__bookmark--button:hover .card__bookmark--svgPath {
+  fill: var(--card__bookmarkHOVER-color);
+}
+.card__bookmark--svgPath {
+  fill: var(--card__bookmark-color);
+}
+/* ^ ^ ^ CARD BOOKMARK BUTTON ^ ^ ^ */

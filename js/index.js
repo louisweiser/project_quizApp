@@ -1,11 +1,12 @@
-const cardOne = document.querySelector('[data-js="cardOne"]');
-const bookmark = document.querySelector('[data-js="svg-bookmark"]');
+const buttonBookmark = document.querySelector(
+  '[data-js="card__bookmark--button"]'
+);
+const buttonAnswer = document.querySelector('[data-js="card__answer--button"]');
 
-cardOne.addEventListener("click", () => {
-  if (cardOne.checked === "true") {
-    bookmark.classList.add("fill");
-  }
+buttonBookmark.addEventListener("click", () => {
   console.log("event");
 });
 
-console.log(cardOne.checked);
+buttonAnswer.addEventListener("click", () => {
+  console.log("answer");
+});

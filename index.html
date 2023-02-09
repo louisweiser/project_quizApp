@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
     <!-- /META -->
+    <title>Quiz App</title>
     <!-- LINKS -->
     <link rel="stylesheet" href="global.css" />
     <script src="./js/index.js" defer></script>
@@ -15,8 +15,8 @@
 
   <body data-js="body">
     <!-- HEAD -->
-    <header>
-      <h1>Quiz App</h1>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <!-- /HEAD -->
     <!-- MAIN -->
@@ -90,34 +90,79 @@
     </main>
     <!-- /MAIN -->
     <!-- NAV BAR-->
-    <nav>
-      <form action="message-page.html">
-        <button class="nav--button">
-          <img
-            class="nav--button__icon"
-            src="svg/chatbubble-outline.svg"
-            alt="message"
-          />
-        </button>
-      </form>
-      <form action="bookmark-page.html">
-        <button class="nav--button">
-          <img
-            class="nav--button__icon"
-            src="svg/bookmark-outline.svg"
-            alt="bookmark"
-          />
-        </button>
-      </form>
-      <form action="profile-page.html">
-        <button class="nav--button" type="submit">
-          <img
-            class="nav--button__icon"
-            src="svg/person-outline.svg"
-            alt="profile"
-          />
-        </button>
-      </form>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__list--item">
+          <a class="navigation__link" href="/message-page.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="35x"
+              width="35px"
+              color="black"
+            >
+              <title>Message-Page</title>
+              <path
+                d="M87.49 380c1.19-4.38-1.44-10.47-3.95-14.86a44.86 44.86 0 00-2.54-3.8 199.81 199.81 0 01-33-110C47.65 139.09 140.73 48 255.83 48 356.21 48 440 117.54 459.58 209.85a199 199 0 014.42 41.64c0 112.41-89.49 204.93-204.59 204.93-18.3 0-43-4.6-56.47-8.37s-26.92-8.77-30.39-10.11a31.09 31.09 0 00-11.12-2.07 30.71 30.71 0 00-12.09 2.43l-67.83 24.48a16 16 0 01-4.67 1.22 9.6 9.6 0 01-9.57-9.74 15.85 15.85 0 01.6-3.29z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__list--item">
+          <a class="navigation__link" href="/bookmark-page.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="35px"
+              width="35px"
+              color="black"
+            >
+              <title>Bookmark-Page</title>
+              <path
+                d="M352 48H160a48 48 0 00-48 48v368l144-128 144 128V96a48 48 0 00-48-48z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__list--item">
+          <a class="navigation__link" href="/profile-page.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="35px"
+              width="35px"
+              color="black"
+            >
+              <title>Profile-Page</title>
+              <path
+                d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
+                fill="none"
+                stroke="currentColor"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </nav>
     <!-- /NAV BAR-->
   </body>

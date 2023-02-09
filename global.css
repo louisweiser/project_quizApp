@@ -30,11 +30,6 @@ section {
   margin: 100px auto 80px auto;
 }
 
-h1 {
-  font-family: "Pacifico", cursive;
-  color: white;
-}
-
 h2 {
   display: flex;
   justify-content: center;

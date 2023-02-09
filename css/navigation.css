@@ -1,7 +1,4 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-
+.navigation {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -9,6 +6,32 @@ nav {
 
   background-color: var(--nav-color);
   border-top: solid black 3px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__list--item {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__link {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.navigation__link:hover path {
+  fill: white;
+}
+
+.navigation__svg {
+  height: 30px;
+  width: 30px;
+  color: black;
 }
 
 .nav--button {
@@ -21,6 +44,7 @@ nav {
 
 .nav--button:hover {
   background-color: rgb(136, 34, 34);
+  fill: white;
 }
 
 .nav--button__icon {

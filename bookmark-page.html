@@ -1,109 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- META -->
+    <!-- v v v META v v v -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bookmark page</title>
-    <!-- /META -->
-    <!-- LINKS -->
+    <!-- ^ ^ ^ META ^ ^ ^ -->
+    <title>Bookmark-Page</title>
+    <!-- v v v LINKS v v v -->
     <link rel="stylesheet" href="global.css" />
     <script src="./js/index.js" defer></script>
-    <!-- /LINKS -->
+    <!-- ^ ^ ^ LINKS ^ ^ ^ -->
   </head>
   <body data-js="body">
-    <!-- HEAD -->
-    <header>
-      <h1>Quiz App</h1>
+    <!-- v v v HEAD v v v -->
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
-    <!-- /HEAD -->
-    <!-- MAIN -->
-    <main>
-      <section>
-        <article>
-          <button class="card--bookmark"></button>
-          <h2>What property flips the axes in flexbox ?</h2>
-          <button class="card--answerButton">Show Answer</button>
-          <ul class="card--topicList">
-            <li class="card--topicList__item">#html</li>
-            <li class="card--topicList__item">#flexbox</li>
-            <li class="card--topicList__item">#css</li>
-          </ul>
-        </article>
-        <article>
-          <button class="card--bookmark"></button>
-          <h2>What property flips the axes in flexbox ?</h2>
-          <button class="card--answerButton">Show Answer</button>
-          <ul class="card--topicList">
-            <li class="card--topicList__item">#html</li>
-            <li class="card--topicList__item">#flexbox</li>
-            <li class="card--topicList__item">#css</li>
-          </ul>
-        </article>
-        <article>
-          <button class="card--bookmark"></button>
-          <h2>What property flips the axes in flexbox ?</h2>
-          <button class="card--answerButton">Show Answer</button>
-          <ul class="card--topicList">
-            <li class="card--topicList__item">#html</li>
-            <li class="card--topicList__item">#flexbox</li>
-            <li class="card--topicList__item">#css</li>
-          </ul>
-        </article>
-        <article>
-          <button class="card--bookmark"></button>
-          <h2>What property flips the axes in flexbox ?</h2>
-          <button class="card--answerButton">Show Answer</button>
-          <ul class="card--topicList">
-            <li class="card--topicList__item">#html</li>
-            <li class="card--topicList__item">#flexbox</li>
-            <li class="card--topicList__item">#css</li>
-          </ul>
-        </article>
-        <article>
-          <button class="card--bookmark"></button>
-          <h2>What property flips the axes in flexbox ?</h2>
-          <button class="card--answerButton">Show Answer</button>
-          <ul class="card--topicList">
-            <li class="card--topicList__item">#html</li>
-            <li class="card--topicList__item">#flexbox</li>
-            <li class="card--topicList__item">#css</li>
-          </ul>
-        </article>
-      </section>
-    </main>
-    <!-- /MAIN -->
-    <!-- NAV BAR-->
-    <nav>
-      <form action="message-page.html">
-        <button class="nav--button">
-          <img
-            class="nav--button__icon"
-            src="svg/chatbubble-outline.svg"
-            alt="message"
-          />
-        </button>
-      </form>
-      <form action="index.html">
-        <button class="nav--button">
-          <img
-            class="nav--button__icon"
-            src="svg/home-outline.svg"
-            alt="bookmark"
-          />
-        </button>
-      </form>
-      <form action="profile-page.html">
-        <button class="nav--button" type="submit">
-          <img
-            class="nav--button__icon"
-            src="svg/person-outline.svg"
-            alt="profile"
-          />
-        </button>
-      </form>
+    <!-- ^ ^ ^ HEAD ^ ^ ^ -->
+    <!-- v v v MAIN v v v -->
+    <main></main>
+    <!-- ^ ^ ^ MAIN ^ ^ ^ -->
+    <!-- v v v NAVIGATION BAR BOTTOM v v v-->
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <!-- v v v BUTTON HOME v v v -->
+        <a class="navigation__link" href="/index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            height="35px"
+            width="35px"
+            color="black"
+          >
+            <path
+              d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+        </a>
+        <!-- ^ ^ ^ BUTTON HOME ^ ^ ^ -->
+        <!-- v v v BUTTON BOOKMARK v v v -->
+        <li class="navigation__list--item">
+          <a class="navigation__link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="35px"
+              width="35px"
+              color="black"
+            >
+              <path
+                d="M352 48H160a48 48 0 00-48 48v368l144-128 144 128V96a48 48 0 00-48-48z"
+                fill="white"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+            </svg>
+          </a>
+        </li>
+        <!-- ^ ^ ^ BUTTON BOOKMARK ^ ^ ^ -->
+        <!-- v v v BUTTON PROFILE v v v -->
+        <li class="navigation__list--item">
+          <a class="navigation__link" href="/profile-page.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="35px"
+              width="35px"
+              color="black"
+            >
+              <path
+                d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
+                fill="none"
+                stroke="currentColor"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+            </svg>
+          </a>
+        </li>
+        <!-- ^ ^ ^ BUTTON PROFILE ^ ^ ^ -->
+      </ul>
     </nav>
-    <!-- /NAV BAR-->
+    <!-- ^ ^ ^ NAVIGATION BAR BOTTOM ^ ^ ^-->
   </body>
 </html>
